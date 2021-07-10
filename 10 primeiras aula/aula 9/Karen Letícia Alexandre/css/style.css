@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+}
+
+.container{
+    margin: auto;
+    max-width: 960px;
+    box-shadow: 0 0 40px rgba(14, 14, 14,.4);
+}
+
+/*--PARTE DA BARRA DE NAVEGAÇÃO--*/
+.content_bar{
+    background: #fff;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_bar{
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.item_bar a{
+    margin-right: 75px;
+    color: black;
+    text-decoration: none;
+    line-height: 65px;
+    font-weight: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--PARTE TEXT DE APRESENTAÇÃO--*/
+.content_text_apre{
+    background: #fff;
+    padding: 75px;
+    margin-top: -5px;
+}
+
+.text_apre{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2i{
+    margin-bottom: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*--PARTE DOS PRODUTOS--*/
+.general_content_prod{
+    background: #ebebeb;
+    padding: 75px;
+}
+
+.content_prod{
+    display: flex;
+}
+
+.prod{
+    padding-right: 78px;
+    font-size: 15px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.img_prod{
+    border-radius: 50%;
+    border: 10px solid red;
+}
+
+/*--PARTE DA LOCALIZAÇÃO--*/
+.general_content_local{
+    background: #fe0000;
+    color: #fff;
+    padding: 75px;
+}
+
+.content_local{
+    display: flex;
+}
+
+.text_local{
+    padding-left: 80px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2d{
+    margin-bottom: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*--PARTE DO CONTATO--*/ 
+.general_content_cont{
+    background: #fff;
+}
+
+.content_cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px;
+} 
+
+.img_cont{
+    width: 330px;
+}
+
+.tab_cont{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+/*--PARTE FINAL DA PAGINA--*/
+.final_pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #fe0000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
