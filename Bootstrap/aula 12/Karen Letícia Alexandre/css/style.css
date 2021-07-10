@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ebebeb;
+}
+
+h1{
+    font-size: 2em;
+}
+
+/*CONTAINER PRINCIPAL*/
+
+/*PARTE NAVBAR*/
+.generalNavBar{
+    background: #ACFF00;
+    height: 90px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.contentNavBar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 960px;
+    margin: auto;
+    height: 100%;
+}
+
+.navBarLogo{
+    font-size: 24px;
+}
+
+.navBarItem{
+    font-size: 17px;
+}
+
+/*FIM PARTE NAVBAR*/
+
+/*///////////////////////*/
+
+/*PARTE DO RODAPE*/
+.generalRodape{
+    background: #ACFF00;
+    height: 148px;
+    display: flex;
+    align-items: center;
+}
+
+.contentRodape{
+    margin: auto;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.itensImgRodape img{
+    border-radius: 7px;
+}
+/*FIM DA PARTE DO RODAPE*/
+
+/*FIM CONTAINER PRINCIPAL*/
+
+
+
+/*///////////////////////*/
+
+
+
+/*CONTAINER CONTEUDO*/
+
+.containerContent{
+    margin: auto;
+    max-width: 960px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.generalDes{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 33px;
+}
+
+.contentImgDes{
+    margin-right: 14px;
+}
+
+.contentTextDes h2{
+    margin-bottom: 10px;
+}
+
+.contentTextDes p{
+    padding-right: 10px;
+}
+
+.titleNot{
+    background: #ACFF00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.otherNot{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.noticia{
+    width: 225px;
+    margin-right: 16px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(14, 14, 14,.4);
+}
+
+.noticia h3{
+    padding-left: 6px;
+    margin-top: 15px;
+}
+
+.noticia p{
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+.otherStuffEntre{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.otherFofo{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.otherStuffImgEntre{
+    margin-right: 7px;
+}
+
+.otherStuffTextEntre h2{
+    margin-bottom: 15px;
+}
+
+.otherStuffTextEntre p{
+    font-size: 16px;
+    padding-right: 12px;
+}
+
+.fofoca{
+    background: #fff;
+    margin-right: 16px;
+    box-shadow: 0 0 10px rgba(14, 14, 14,.4);
+}
+
+.fofoca h3{
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.fofoca p{
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 20px;
+}
+
+/*FIM CONTAINER CONTEUDO*/
+
+/*///////////////////////*/
+
+/*PARTE DO RESPONSIVO*/
+@media screen and (max-width: 360px){
+    .imgNot{
+        width: 340px;
+        height: 212px;
+    }
+
+    .contentNavBar{
+        width: 360px;
+        display: block;
+        margin-left: 10px;
+    }
+
+    .containerContent{
+        margin: 100%;
+    }
+
+    .generalDes{
+        display: block;
+        margin-top: -320px;
+        margin-left: -350px;
+    }
+
+    .generalNot{
+        margin-left: -350px;
+    }
+
+    .noticia{
+        margin-bottom: 25px;
+        width: 340px;
+    }
+
+    .noticia p{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .generalEntre{
+        margin-left: -350px;
+    }
+
+    .generalFofo{
+        margin-left: -350px;
+        margin-bottom: -320px;
+    }
+
+    .otherNot{
+        display: block;
+    }
+
+    .otherStuffEntre{
+        display: block;
+    }
+
+    .otherStuffImgEntre iframe{
+        width: 340px;
+        height: 207.39;
+    }
+
+    .otherFofo{
+        display: block;
+    }
+
+    .fofoca{
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+    .contentRodape{
+        font-size: '';
+        flex-direction: column;
+        height: 148px;
+        padding-left: 19px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+/*FIM DA PARTE DO RESPONSIVO*/

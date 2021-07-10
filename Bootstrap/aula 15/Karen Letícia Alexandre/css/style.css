@@ -1,0 +1,137 @@
+h2, h5 {
+    font-weight: 700;
+    font-family: 'Rubik' bold , sans-serif;
+    font-style: italic;
+}
+
+p{
+    font-style: italic;
+}
+
+a {
+    font-style: italic;
+    font-family: 'Rubik' bold , sans-serif;
+}
+
+/* CONFIGURAÇÃO DAS FONTES */
+
+/* PARTE DA CONFIG DO CONTAINER */
+.container {
+    padding: 0px;
+    box-shadow: 0 0.5em 1em rgba(50, 50, 50, 0.6); 
+}
+
+
+/* PARTE DA NAV BAR */
+
+.navBar {
+    background: #003650;
+    height: 65px;
+}
+
+.navBar .navbar-brand{
+    padding-left: 65px;
+}
+
+.navBar .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navBar ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navBar li{
+    list-style: none;
+}
+
+.titleA {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* TEXT DE APRESENTAÇÃO */
+
+.textApre{
+    padding: 130px;
+    background: #ebebeb;
+}
+
+.textApre h2{
+    margin-bottom: 40px;
+}
+
+.textApre p{
+    text-align: justify;
+}
+
+/* PARTE DOS SERVIÇOS */
+
+.textService {
+    background: #003650;
+    color: #fff;
+    margin: 0px;
+}
+
+.generalSer {
+    padding: 110px;
+}
+
+.Card{
+    padding: 20px;
+}
+
+.generalSer h2{
+    margin: 25px;
+}
+
+/* PARTE DOS CLIENTES */
+
+.textClient {
+    margin: 0px;
+    padding: 100px;
+    background: #ebebeb;
+}
+
+.textClient h2{
+    margin: 30px;
+}
+
+.textClient p{
+    margin: 30px;
+}
+
+.textClient img{
+    width: 200px;
+}
+
+/* PARTE DA LOCALIZAÇÃO */
+
+.cardLocalizacao {
+    background: #003650;
+    padding: 130px;
+    color: #fff;
+}
+
+/* PARTE DO RODAPE */
+
+.cardRodape{
+    background: #ebebeb;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

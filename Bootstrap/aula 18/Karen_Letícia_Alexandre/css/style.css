@@ -1,0 +1,103 @@
+.custom-toggler,
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg%27%3E%3Cpath stroke='rgba(253,13,85, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler,
+.navbar-toggler {
+  border-color: rgb(253,13,85 0);
+}
+
+/* ------------------------------------------------------------------------- */
+
+.btn{
+    background: #FD0D55;
+    border: none;
+}
+
+.navBar {
+    background: #ebebeb;
+}
+
+.nav-link{
+    color: #000;
+    line-height: 20px;
+}
+
+.navitem{
+    color: #FD0D55;
+}
+
+.titleN{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.titleN img{
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+}
+
+.titleN h2{
+    margin: 0px;
+}
+
+.card{
+    border: none;
+    box-shadow: 0 0.5em 1em rgba(201, 201, 201, 0.6);
+}
+
+.cardT{
+    margin-bottom: 23px;
+}
+
+.card-body {
+    background: #EEEEEE;
+}
+
+.contRodape{
+    background: #FD0D55;
+    color: #EEEEEE;
+    margin-top: 25px;
+}
+
+.itensTextRodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.itensTextRodape p{
+    margin: 0px;
+}
+
+@media screen and (max-width: 576px) { 
+
+    .carroselT{
+        display: block;
+    }
+
+    .carroselTt{
+        width: 100%;
+    }
+
+    .imgR {
+        width: 80px;
+    }
+
+    .carroselTtt{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .contRodape{
+        margin-top: 0px;
+    }
+ }
+

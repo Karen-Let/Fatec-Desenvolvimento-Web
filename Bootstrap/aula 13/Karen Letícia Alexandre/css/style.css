@@ -1,0 +1,110 @@
+/*CLASSIFOCAÇÃO DAS FONTES (H2 e P)*/
+
+h2 {
+    font-weight: 800;
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*NAV BAR*/
+
+.navBar {
+    background: #382119;
+    height: 80px;
+}
+
+.navBar img {
+    margin: 10px;
+    width: 70px;
+}
+
+.navBar ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.navBar li {
+    list-style: none;
+}
+
+.imgmApre {
+    padding: 0px;
+}
+
+.textApre {
+    padding: 100px;
+    background-color: #fff;
+}
+
+.imgTextApre {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+  
+.imgTextApre p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.cardLanches{
+    padding: 80px;
+    background-color: #382119;
+}
+  
+.cardLanches h2 {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.cardLanchesText {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: calc(25% - 25px);
+}
+
+.cardLanchesText p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.cardLanchesText h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+.cardLocalizacao {
+    padding: 80px;
+    background-color: rgb(211, 195, 157);
+}
+
+.cardItemLocal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardItemLocal p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.cardRodape {
+    padding: 20px;
+    background-color: #382119;
+}
+
+.cardRodape h3 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}

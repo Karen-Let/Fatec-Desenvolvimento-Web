@@ -1,0 +1,98 @@
+.custom-toggler,
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg%27%3E%3Cpath stroke='rgba(253,13,85, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler,
+.navbar-toggler {
+  border-color: rgb(253,13,85 0);
+}
+
+/* ---------------------------- */
+.nav-link{
+    color: #000;
+    line-height: 20px;
+}
+
+.navitem{
+    color: #FD0D55;
+}
+
+.titleN{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.titleN img{
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+}
+
+.titleN h2{
+    margin: 0px;
+}
+
+.generalNot{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card-body{
+    background-color: #EEEEEE;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.btn{
+    background: #DE0848;
+    border: none;
+}
+
+.cardUN {
+    margin-bottom: 20px;
+}
+
+.contRodape{
+    background: #FD0D55;
+    color: #EEEEEE;
+}
+
+.itensTextRodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.itensTextRodape p{
+    margin: 0px;
+}
+
+@media screen and (max-width: 572px) {
+    
+
+
+    .d-block{
+        height: 200px;
+    }
+
+    .titleN{
+        margin-top: 40px;
+    }
+
+    .titleNR{
+        margin-top: 0px;
+    }
+
+    .generalNot {
+        padding-bottom: 5px;
+    }
+}
+

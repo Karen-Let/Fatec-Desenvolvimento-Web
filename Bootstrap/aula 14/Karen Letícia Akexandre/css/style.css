@@ -1,0 +1,150 @@
+h2 {
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* PARTE DAS FONTES DO SITE */
+
+/* PARTE DO BODY */
+
+body {
+    background: #eeeeee;
+}
+
+.container {
+    background: #ffffff;
+    padding: 0px;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+
+/* PARTE DA NAV BAR */
+
+.navBar {
+    background: #000000;
+    height: 100px;
+}
+
+.tNavBar {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.navBar img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navBar li {
+    list-style: none;
+}
+
+.linkNav {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mybutton {
+    background: #d1c517;
+}
+
+.buttonJogue {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+/* PARTE DO TEXT SOBRE */
+
+.textApre {
+    padding: 100px;
+}
+
+.textApre h2{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.textApre p {
+    margin-top: 15px;
+    margin-left: 60px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/* PARTE DE CARDS */
+
+/* BUTTON DO CARD */
+.card-body a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-body button {
+    width: 130px;
+}
+
+
+/* PARTE DO TEXT MUNDIAL */
+
+.textApreMundi {
+    padding: 100px;
+}
+
+.textApreMundi h2{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.textApreMundi p{
+    margin-top: 20px;
+    margin-right: 60px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.textApreMundi a {
+    color: white;
+    text-decoration: none;
+}
+
+.textApreMundi button{
+    margin-top: 20px;
+}
+
+/* PARTA DO RODAPE */
+
+.cardRodape {
+    background: #000000;
+    color: #ffffff;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+}
+
+.cardRodape h3 {
+    margin-top: 30px;
+}

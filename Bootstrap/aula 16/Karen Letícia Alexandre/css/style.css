@@ -1,0 +1,146 @@
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+/* PARTE DAS ESPECIFICAÇÕES DAS FONTES */
+
+
+/* PARTE DO BODY / CONTAINER */
+
+body {
+    background: #ebebeb;
+}
+
+.container {
+    max-width: 960px;
+    background: #FFFFFF;
+    padding: 0px;
+}
+
+/* PARTE DA NAVBAR */
+
+.navBar {
+    background: #BF1717;
+    /* padding: ; */
+}
+
+.navBar a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navBar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/* PARTE DO TEXT APRESENTAÇÃO PARTE 1 */
+
+.textApre1 {
+    margin-right: 170px;
+    margin-left: 170px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.textApre1 p {
+    font-size: 16px;
+}
+
+/* PARTE DO TEXT APRESENTAÇÃO PARTE 2 */
+
+.textApre2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+
+/* PARTE DAS CARACTERISTICAS */
+
+.cardd{
+    background: #e5e5e5;
+}
+
+.cardCarac h2{
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+/* PARTE DA PROPAGANDA */
+
+.textPropa{
+    margin-top: 128px;
+    margin-bottom: 66px;
+}
+
+.cardddd{
+    background: #e5e5e5;
+}
+
+.buttonL{
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* PARTE RODAPE */
+
+.contRodape{
+    background: #BF1717;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+/* PARTE DO RESPONSIVO */
+
+@media screen and (max-width: 300px) {
+    p{
+        font-size: 20px;
+    }
+
+    .imgApre img{
+        width: 300px;
+        height: 211px;
+        padding: 0px;
+    }
+
+    .textApre1{
+        margin: 10px;
+        justify-content: left;
+    }
+
+    .textApre22{
+        display: block;
+        padding: 0px;
+    }
+
+    .textPropa1{
+        display: block;
+    }
+
+    .textPropa11{
+        display: block;
+    }
+
+
+}

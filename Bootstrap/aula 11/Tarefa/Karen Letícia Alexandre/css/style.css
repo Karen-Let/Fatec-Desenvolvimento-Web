@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #ebebeb;
+}
+
+.container{
+    margin: auto;
+    max-width: 960px;
+    background: #fff;
+    box-shadow: 0 0 60 rgba(0, 0, 0, 0.4);
+}
+
+/*-----------NAVBAR-----------*/
+.generalNavBar{
+    max-width: 960px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 55px;
+    background: #61BF17;
+}
+
+.nav_name a{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav_item a{
+    color: white;
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+/*---------FIM NAVBAR---------*/
+
+/******************************/
+
+/*------TEXT APRESENTAÇÃO-----*/
+.text_aprePraias{
+    max-width: 620px;
+    margin: 10px;
+    margin-top: -10px;
+}
+.content_text{
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+.content_text h2{
+    margin-bottom: 11px;
+    font-size: 32px;
+}
+/*----FIM TEXT APRESENTAÇÃO---*/
+
+/******************************/
+
+/*-------PARTE DAS PRAIAS-----*/
+.content_praias h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.praias{
+    display: flex;
+    width: 300px;
+}
+
+.text_praias{
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.text_praias h1{
+    margin-top: 20px;
+    margin-bottom: 11px;
+    font-size: 24px;
+}
+
+/*----FIM PARTE DAS PRAIAS----*/
+
+/******************************/
+
+/*---------TEXT BASIC---------*/
+.textBasic{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.container_textPraias{
+    display: flex;
+    margin-top: -4px;
+}
+
+.textBasic{
+    max-width: 300px;
+}
+
+.content_textbasic img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.content_textbasic h2{
+    font-size: 38px;
+    margin-bottom: 11px;
+}
+
+.content_textbasic p{
+    margin-bottom: 30px;
+}
+
+.general_prop{
+    background: #ebebeb;
+}
+
+.content_prop{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    height: 283px;
+}
+
+.content_prop h1{
+    font-size: 24px;
+    margin-bottom: 11px;
+}
+
+.content_prop p{
+    margin-bottom: 17px;
+}
+
+.button_prop{
+    background: #61BF17;
+    color: #fff;
+    width: 260px;
+    height: 70px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+/*-------FIM TEXT BASIC-------*/
+
+/******************************/
+
+/*-------PARTE DO RODAPE------*/
+.general_textRodape{
+    background: #61BF17;
+    color: #fff;
+    height: 93px;
+}
+
+.content_textRodape h1{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+.content_textRodape p{
+    padding-top: 11px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+/*----FIM PARTE DO RODAPE-----*/
+
+/******************************/
+
+/*--PARTE DA RESPONSIVIDADE---*/
+
+@media screen and (max-width: 360px) {
+    .container{
+        width: 100%;
+    }
+
+    .content_text h2{
+        font-size: 28px;
+        margin-right: 55px;
+    }
+
+    .content_text p{
+        font-size: 15px;
+        margin-right: 18px;
+    }
+
+    .praias{
+        display: block;
+        margin-left: 5px;
+    }
+
+    .content_praias h2{
+        font-size: 28px;
+    }
+
+    .text_praias{
+        background: #ebebeb;
+        margin-right: 0px;
+    }
+
+    .text_praias img{
+        margin-bottom: -15px;
+    }
+
+    .text_praias h1{
+        padding: 10px;
+        margin-bottom: -10px;
+        font-size: 20px;
+    }
+
+    .text_praias p{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .container_textPraias{
+        display: block;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .imgApre img{
+        width: 100%;
+        height: 432px;
+    }
+
+    .content_textbasic img {
+        margin-left: 5px;
+    }
+
+    .content_textbasic h2{
+        margin-left: 5px;
+        font-size: 37px;
+    }
+
+    .content_textbasic p{
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .general_prop{
+        width: 100%;
+        margin-left: 5px;
+        margin-bottom: 30px;
+    }
+
+    .general_textRodape{
+        height: 108px;
+    }
+
+    .content_textRodape h1{
+        font-size: 20px;
+    }
+
+    .content_textRodape p{
+        font-size: 16px;
+    }
+}
